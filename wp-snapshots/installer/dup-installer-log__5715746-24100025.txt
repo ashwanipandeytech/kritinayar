@@ -1,0 +1,483 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:40:26
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 5.6.40                                |7.2.25
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2019-12-24 10:00:25
+WP VERSION__________: 4.9.5
+DUP VERSION_________: 1.3.24
+DB__________________: 5.6.46
+DB TABLES___________: 14
+DB ROWS_____________: 18,634
+DB FILE SIZE________: 5.8MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.25 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/u210904934/domains/kritinayar.com/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://kritinayar.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191224_theblondecouture_5715746c4e2d8b1d5311_20191224100025_archive.daf"
+SIZE________________: 442.28MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 12:40:29 - RUNTIME: 3.1246 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:41:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.2.27 -- Build Server: 5.6.46
+FILE SIZE:	dup-database__5715746-24100025.sql (5.13MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/u210904934/domains/kritinayar.com/public_html/dup-installer/dup-installer-data__5715746-24100025.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/u210904934/domains/kritinayar.com/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	138
+
+wp_commentmeta: (9458)
+wp_comments: (3264)
+wp_duplicator_packages: (0)
+wp_links: (7)
+wp_options: (170)
+wp_post_views: (1805)
+wp_postmeta: (2994)
+wp_posts: (683)
+wp_term_relationships: (113)
+wp_term_taxonomy: (33)
+wp_termmeta: (0)
+wp_terms: (33)
+wp_usermeta: (42)
+wp_users: (2)
+Removed '30' cache/transient rows
+
+INSERT DATA RUNTIME: 6.3359 sec.
+STEP-2 COMPLETE @ 12:41:31 - RUNTIME: 6.3540 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:42:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Kriti Nayar"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/enf09b3sbbf7/public_html/theblondecouture.com/"
+path_new______________: "/home/u210904934/domains/kritinayar.com/public_html/"
+siteurl_______________: "http://kritinayar.com"
+url_old_______________: "http://theblondecouture.com"
+url_new_______________: "http://kritinayar.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "u210904934_blonde"
+dbname________________: "u210904934_blonde"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:  9458][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:  3264][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   170][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_post_views"___________________________________[ROWS:  1805][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2994][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   683][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/enf09b3sbbf7/public_html/theblondecouture.com/" => "/home/u210904934/domains/kritinayar.com/public_html/"
+	SEARCH  2:"\/home\/enf09b3sbbf7\/public_html\/theblondecouture.com\/" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html\/"
+	SEARCH  3:"%2Fhome%2Fenf09b3sbbf7%2Fpublic_html%2Ftheblondecouture.com%2F" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html%2F"
+	SEARCH  4:"\home\enf09b3sbbf7\public_html\theblondecouture.com" => "/home/u210904934/domains/kritinayar.com/public_html"
+	SEARCH  5:"\\home\\enf09b3sbbf7\\public_html\\theblondecouture.com" => "\/home\/u210904934\/domains\/kritinayar.com\/public_html"
+	SEARCH  6:"%5Chome%5Cenf09b3sbbf7%5Cpublic_html%5Ctheblondecouture.com" => "%2Fhome%2Fu210904934%2Fdomains%2Fkritinayar.com%2Fpublic_html"
+	SEARCH  7:"//theblondecouture.com" ==========================> "//kritinayar.com"
+	SEARCH  8:"\/\/theblondecouture.com" ========================> "\/\/kritinayar.com"
+	SEARCH  9:"%2F%2Ftheblondecouture.com" ======================> "%2F%2Fkritinayar.com"
+	SEARCH 10:"//www.theblondecouture.com" ======================> "//kritinayar.com"
+	SEARCH 11:"\/\/www.theblondecouture.com" ====================> "\/\/kritinayar.com"
+	SEARCH 12:"%2F%2Fwww.theblondecouture.com" ==================> "%2F%2Fkritinayar.com"
+	SEARCH 13:"https://kritinayar.com" ==========================> "http://kritinayar.com"
+	SEARCH 14:"https:\/\/kritinayar.com" ========================> "http:\/\/kritinayar.com"
+	SEARCH 15:"https%3A%2F%2Fkritinayar.com" ====================> "http%3A%2F%2Fkritinayar.com"
+--------------------------------------
+SCANNED:	Tables:14 	|	 Rows:18604 	|	 Cells:123325 
+UPDATED:	Tables:4 	|	 Rows:618 	|	 Cells:688 
+ERRORS:		0 
+RUNTIME:	0.320000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""u210904934_blonde""
+	UPDATE DB_USER ""u210904934_blonde""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+MEDIA SETTINGS NOTICE: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:42:30 - RUNTIME: 0.4448 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Media settings notice
+	SECTIONS: general
+	LONG MSG: MEDIA SETTINGS NOTICE: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

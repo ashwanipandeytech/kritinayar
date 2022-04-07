@@ -1,0 +1,45 @@
+<form id="ajax-contact" class="contact-form" role="form" action="" method="post">
+    <div class="row dg-form-content13">
+        <div class="col-sm-12">
+            <div class="class="><label>Select Interest</label></div>
+            <div class="form-row"><select id="Recipient" class="form-control" name="your-recipient" aria-invalid="false">
+    <option value="Franchising/Licensing/Marketing partners">Franchising/Licensing/Marketing partners</option>
+    <option value="Mass customization suppliers">Mass customization suppliers</option>
+    <option value="Corporate Development, Investments">Corporate Development, Investments</option>
+    <option value="Consumers/Customers">Consumers/Customers</option>
+    </select></div>
+            <div class="class="><label>Name*</label></div>
+            <div class="form-row"><input id="Name" class="flvname" name="name" type="text" />
+                <p> </p>
+                <div id="errmessagename" class="alert dg-alert01 border-danger color-danger fade in">Name is Required.</div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="class="><label>Your email*</label></div>
+            <div class="form-row"><input id="Email" class="flvname" name="email" type="text" />
+                <p> </p>
+                <div id="errmessageemail" class="alert dg-alert01 border-danger color-danger fade in">Email is Required and must be valid.</div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="class="><label>Subject*</label></div>
+            <div class="form-row"><input id="Subject" class="flvname" name="subject" type="text" /></div>
+            <div id="errmessagesubject" class="alert dg-alert01 border-danger color-danger fade in">Subject is Required.</div>
+        </div>
+        <div class="col-sm-12">
+            <div class="class="><label>Message* (max. 1000 characters, please)</label></div>
+            <div class="form-row">
+                <p><textarea id="Message" class="flvmessage" name="message" rows="5"></textarea></p>
+            </div>
+            <div id="errmessagemessage" class="alert dg-alert01 border-danger color-danger fade in">Message is Required.</div>
+            <div id="errmessagemessagelength" class="alert dg-alert01 border-danger color-danger fade in">Message should not exceed 1000 words.</div>
+        </div>
+        <div class="col-sm-12 text-center">
+            <div id="showloader" class="loading text-center"> </div>
+            <p>[bws_google_captcha]<br /><input class=" btn submit_but" title="SUBMIT NOW" name="submit" type="submit" value="Submit" /></p>
+            <div id="errmessagerecipientemail" class="alert dg-alert01 border-danger color-danger fade in">Receiver email is required and must be valid.</div>
+            <div id="emailsend" class="alert dg-alert01 bg-success fade in"><button id="submitbutton" class="close" type="button" aria-hidden="true" data-dismiss="alert"></button> Your message has been sent successfully.</div>
+            <div id="emailfailed" class="alert dg-alert01 border-danger color-danger fade in">Email send error.</div>
+        </div>
+    </div>
+</form>
