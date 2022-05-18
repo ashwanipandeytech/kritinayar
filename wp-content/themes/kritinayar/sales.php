@@ -937,7 +937,7 @@
       <footer style="background-color: #000; padding-top: 40px;padding-bottom: 40px;">
          <div class="container">
             <div class=" de1pxLetterSpacing" data-bold="inherit" style="text-align: center; color: rgb(255, 255, 255); font-size: 16px;" data-gramm="false" contenteditable="false">
-            <p>NOT FACEBOOK: This site is not a part of the FacebookTM website or Facebook Inc. Additionally. This site is NOT endorsed by Facebook in any way.
+            <p>NOT FACEBOOK: This site is not a part of the Facebook&#8482; website or Facebook Inc. Additionally. This site is NOT endorsed by Facebook in any way.
 FACEBOOK is a trademark of FACEBOOK, Inc.</p>
 
 <p>LIABILITY DISCLAIMER: By reading this website or the documents it offers,
