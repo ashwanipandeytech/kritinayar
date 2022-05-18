@@ -22,10 +22,10 @@
  */
 
 /** The name of the database for WordPress  local 1*/
-// define('DB_NAME', 'kritinayar');
-// define('DB_USER', 'phpmyadmin');
-// define('DB_PASSWORD', 'admin123');
-// define('DB_HOST', 'kritinayar');
+define('DB_NAME', 'kritinayar');
+define('DB_USER', 'phpmyadmin');
+define('DB_PASSWORD', 'admin123');
+define('DB_HOST', 'kritinayar');
 
 /** The name of the database for WordPress  local 2*/
 // define('DB_NAME', 'kritinayar');
@@ -34,11 +34,11 @@
 // define('DB_HOST', 'kritinayar');
 
 
-/** The name of the database for WordPress server */
-define('DB_NAME', 'id18329635_demo');
-define('DB_USER', 'id18329635_root');
-define('DB_PASSWORD', 'Rootdemo123!@#');
-define('DB_HOST', 'localhost');
+/** The name of the database for WordPress server  000 hosts*/
+// define('DB_NAME', 'id18329635_demo');
+// define('DB_USER', 'id18329635_root');
+// define('DB_PASSWORD', 'Rootdemo123!@#');
+// define('DB_HOST', 'localhost');
 
 
 

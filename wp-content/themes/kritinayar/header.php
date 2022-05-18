@@ -77,7 +77,6 @@
                 font-style: normal;
             }
         </style>
-        
         <!-- <script id="init_data" type="application/json">
             {
                 "mobile": {
@@ -15142,10 +15141,10 @@
                         <a href="" target="_blank" class="sie-sticky-menu-open_19 se" data-sid="sticky-menu-open_19">
                             <div class="se-simple"></div>
                         </a>
-                        <!-- <a href="https://learn.christinagalbato.com/users/sign_in" target="_blank"
+                        <a href="https://learn.christinagalbato.com/users/sign_in" target="_blank"
                             class="sie-sticky-menu-open_20 se" data-sid="sticky-menu-open_20">
                             <nav class="se-t sie-sticky-menu-open_20-text st-m-subheading st-d-heading">Student Login</nav>
-                        </a> -->
+                        </a>
                         <a href="/success-stories" target="_self" class="sie-sticky-menu-open_21 se  se-pc"
                             data-sid="sticky-menu-open_21">
                             <div class="se-t sie-sticky-menu-open_21-text st-m-subheading st-d-heading">Success stories
@@ -15277,6 +15276,6 @@
                 <div class="menu-list">
                     <a href="/sales" target="_self">SALES</a>
                     
-                    <!-- <a href="https://learn.christinagalbato.com/users/sign_in" class="btn btn-primary">Student Login</a> -->
+                    <a href="https://learn.christinagalbato.com/users/sign_in" class="btn">Student Login</a>
                 </div>
             </div>

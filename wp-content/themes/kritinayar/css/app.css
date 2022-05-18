@@ -32,6 +32,7 @@ a { text-decoration: none; }
   font-size: 6rem;
   height: 100px;
   line-height: 100px;
+  text-decoration: none;
 }
 #menu .btn {
   width: 147px;
@@ -408,9 +409,9 @@ a { text-decoration: none; }
 
 #you-judge {
   padding-block: 60px;
-  background-color: rgb(234, 208, 191);
+  /* background-color: rgb(234, 208, 191); */
 }
-#you-judge .box {
+/* #you-judge .box {
   font-size: 18px;
   color: rgb(12, 12, 12);
   border: 1px solid rgb(255, 255, 255);
@@ -419,7 +420,7 @@ a { text-decoration: none; }
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-}
+} */
 
 #explain13milli-seconds {
   padding-top: 60px;
@@ -444,7 +445,7 @@ a { text-decoration: none; }
 }
 #explain13milli-seconds .row ul li {
   font-size: 18px;
-  background: url("//www.instainfluencekit.com/hosted/images/4f/a9063ab28b49b58ec62e340d10857a/section_02_plus_icon.png") no-repeat;
+  /* background: url("//www.instainfluencekit.com/hosted/images/4f/a9063ab28b49b58ec62e340d10857a/section_02_plus_icon.png") no-repeat; */
   margin-bottom: 15px;
 }
 #explain13milli-seconds .row h2 {
@@ -455,12 +456,18 @@ a { text-decoration: none; }
   padding-top: 30px;
   padding-bottom: 22px;
   outline: none;
-  margin-top: -3px;
-  background-image: url('https://www.instainfluencekit.com/hosted/images/9e/3a7ec26a4c46fcaf6f9e1158971866/_3MBB.jpg');
+  /* margin-top: -3px; */
+  /* background-image: url('https://www.instainfluencekit.com/hosted/images/9e/3a7ec26a4c46fcaf6f9e1158971866/_3MBB.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
   /* background-color: rgb(255, 241, 228); */
 }
+#visually-hook-attention .brand img {
+  width: calc(100% / 3);
+  padding-inline: 15px;
+  /* aspect-ratio: 1/1; */
+}
+
 #visually-hook-attention .row .col {
   max-width: 638px;
 }
@@ -472,15 +479,41 @@ a { text-decoration: none; }
 }
 
 #co-founder {
-  padding-top: 20px;
+  /* padding-top: 20px;
   outline: none;
   background-image: url('https://www.instainfluencekit.com/hosted/images/62/6ef92dceb0403297e16f9b9a5db2f5/IIK_IntroBGPink.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
+}
+#co-founder .container {
+  background-color: #efc3b8;
+  margin-right: unset;
+}
+#co-founder .container img {
+  top: -120px;
+  right: 0;
+}
+#co-founder .container .tag {
+  width: max-content;
+  background-color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-inline: 15px;
+  position: absolute;
+  top: -100px;
+  right: 30%;
+}
+#co-founder .container .tag span {
+  font-family: 'Sign Style';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 6rem;
+  /* height: 100px; */
+  line-height: 100px;
 }
 #co-founder .Content {
   max-width: 550px;
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
   padding: 70px 15px 30px;
   margin-top: 135px;
@@ -529,11 +562,11 @@ a { text-decoration: none; }
   padding-top: 100px;
   padding-bottom: 50px;
   outline: none;
-  background-color: rgb(244, 215, 211);
-  background-image: url('https://go.bossbabe.com/hosted/images/94/fd77aef61a4e7c9af3edcd361bf2cb/IIK_bgdots.png');
+  background-color: #efc3b8;
+  /* background-image: url('https://go.bossbabe.com/hosted/images/94/fd77aef61a4e7c9af3edcd361bf2cb/IIK_bgdots.png');
   background-size: 100% auto !important;
   -webkit-background-size: 100% auto !important;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important; */
 }
 #learn-socialmedia .container {
   padding-left: 65px;
@@ -544,7 +577,7 @@ a { text-decoration: none; }
   padding-bottom: 40px;
   margin: 0px auto;
   outline: none;
-  background-color: rgb(255, 241, 228);
+  background-color: #f5f5f549;
   width: 90%;
   max-width: 100%;
 }
@@ -555,7 +588,7 @@ a { text-decoration: none; }
 }
 #learn-socialmedia .container .row ul li {
   display: flex;
-  padding-block: 20px;
+  padding-block: 10px;
 }
 #learn-socialmedia .container .row ul li span {
   font-size: 20px;

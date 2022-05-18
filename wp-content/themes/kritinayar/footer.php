@@ -60,7 +60,7 @@
             }
         </style>
         <div id="footer" class="p-2 p-sm-5">
-            <div class="container">
+            <div class="container " id="hideforsales">
                 <div class="row align-items-sm-center">
                     <div class="col-12 col-sm-6">
                         <div class="left-content">
@@ -140,7 +140,7 @@
                 object-fit: cover;
             }
             </style>
-        <div class="footer-image-gallery d-flex align-items-center" id="footer-img-gallery">
+        <div class="footer-image-gallery d-flex align-items-center" id="footergallery">
             <div class="box text-center">
                 <div class="top pt-5 mb-4">
                     <a href="https://www.instagram.com/christinagalbato/" target="_blank">Come say hi</a>
@@ -153,16 +153,16 @@
                     <img class="lightwidget__image" srcset="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787 1080w" src="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787" sizes="11vw" alt="It’s been awhile since I’ve told my full story here on IG so for those of you are new faces...">
                 </a>
                 <a href="">
-                <img class="lightwidget__image" srcset="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787 1080w" src="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787" sizes="11vw" alt="It’s been awhile since I’ve told my full story here on IG so for those of you are new faces...">
+                    <img class="lightwidget__image" srcset="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277114118_529155531886192_461040823136784056_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=YFHRdWh1V6sAX-N5kI5&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT84mSe9_nX5ur-9bQBUlxtJcbPOa0DllFFdhyPmPZ9ejw&amp;oe=6249F454 1080w" src="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277114118_529155531886192_461040823136784056_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=YFHRdWh1V6sAX-N5kI5&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT84mSe9_nX5ur-9bQBUlxtJcbPOa0DllFFdhyPmPZ9ejw&amp;oe=6249F454" sizes="11vw" alt="Big announcement!! 🎉 We are now offering SCHOLARSHIPS for The Influencer Bootcamp and The...">
                 </a>
                 <a href="">
-                <img class="lightwidget__image" srcset="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787 1080w" src="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787" sizes="11vw" alt="It’s been awhile since I’ve told my full story here on IG so for those of you are new faces...">
+                    <img class="lightwidget__image" srcset="https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/276138495_507548684265387_4888136861139106297_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=q462mlJAAEQAX_H_boQ&amp;_nc_oc=AQldFRXAZzrsNFdtCjA9i2UmXeR9cYR8jVV40t1SuuQeZvBDjop2_PYCilCbEcOuj9jv3PDXzetPHNAP2fX8Lq2i&amp;_nc_ht=scontent-frt3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT_5n8txVKK6t1J3OO7HQgnAxiaIAAjwef--JOeqc9CSOw&amp;oe=624BD2BE 1080w" src="https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/276138495_507548684265387_4888136861139106297_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=q462mlJAAEQAX_H_boQ&amp;_nc_oc=AQldFRXAZzrsNFdtCjA9i2UmXeR9cYR8jVV40t1SuuQeZvBDjop2_PYCilCbEcOuj9jv3PDXzetPHNAP2fX8Lq2i&amp;_nc_ht=scontent-frt3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT_5n8txVKK6t1J3OO7HQgnAxiaIAAjwef--JOeqc9CSOw&amp;oe=624BD2BE" sizes="11vw" alt="In my stories the other day, one of you sweet humans wrote that I seem a lot more confident...">
                 </a>
                 <a href="">
-                <img class="lightwidget__image" srcset="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787 1080w" src="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787" sizes="11vw" alt="It’s been awhile since I’ve told my full story here on IG so for those of you are new faces...">
+                    <img class="lightwidget__image" srcset="https://scontent-frt3-2.cdninstagram.com/v/t51.29350-15/275643156_644119149994494_382958058341273096_n.jpg?_nc_cat=101&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=XOlxJl7q9c0AX-7iKOG&amp;_nc_ht=scontent-frt3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT84xR9DResgmIu6nf95Ncq5LWqY0qUrAh7EXB7rFVSC6Q&amp;oe=624B20EB 1080w" src="https://scontent-frt3-2.cdninstagram.com/v/t51.29350-15/275643156_644119149994494_382958058341273096_n.jpg?_nc_cat=101&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=XOlxJl7q9c0AX-7iKOG&amp;_nc_ht=scontent-frt3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT84xR9DResgmIu6nf95Ncq5LWqY0qUrAh7EXB7rFVSC6Q&amp;oe=624B20EB" sizes="11vw" alt="This year I committed to reading The Daily Stoic every AM (even on weekends &amp; on vacay) and I can...">
                 </a>
                 <a href="">
-                <img class="lightwidget__image" srcset="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787 1080w" src="https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/277292222_3232641076973423_3122855856675872109_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=mtAZXbJMHvAAX_ANy12&amp;_nc_ht=scontent-frx5-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT8QYShsxtOr8913QU_WGDazhTY641FmrPfhKIAe7X15ew&amp;oe=624B7787" sizes="11vw" alt="It’s been awhile since I’ve told my full story here on IG so for those of you are new faces...">
+                 <img class="lightwidget__image" srcset="https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/275638310_491534302422817_2039131904446421296_n.jpg?_nc_cat=104&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=XeYbszBryZgAX8A4kF3&amp;_nc_ht=scontent-frt3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT_ZjUv57CEgjjMf0H8yi7CFU8arhZ8FREg-ZQEcYkSDcg&amp;oe=624BD329 1080w" src="https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/275638310_491534302422817_2039131904446421296_n.jpg?_nc_cat=104&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=XeYbszBryZgAX8A4kF3&amp;_nc_ht=scontent-frt3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AT_ZjUv57CEgjjMf0H8yi7CFU8arhZ8FREg-ZQEcYkSDcg&amp;oe=624BD329" sizes="11vw" alt="Day 1 in this colorful little city surrounded by mountains ⛰☀️ (brain’s in full vacay mode so...">
                 </a>
 
             </div>
@@ -175,40 +175,37 @@
                 color: #fff;
             }
         </style>
-        <div class="footer-bottom d-flex justify-content-sm-center py-2">
-            <div>Copyright Christina Galbato LLC</div>
-            <div><a href="">Terms</a></div>
-            <div><a href="">Privacy</a></div>
-            <div><a href="">Site Credit</a></div>
-            <div><a href="">Photo Credit</a></div>
+        <div class="footer-bottom d-flex justify-content-sm-center py-2" id="footer-gallery-first">
+            <div>2022 ALL RIGHTS RESERVED</div>
+            <div class="pl-5 pr-2"><a href="">Disclaimer</a></div>
+            <div class="pr-2"><a href="">Refund Policy</a></div>
+            <div><a href="">Privacy Policy and T&C</a></div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script  type="text/javascript">
-   let url=window.location.href
-   let lastUrl=url.split("/");
-  
-   if(lastUrl[lastUrl.length-2]=='sales'){
-   // document.getElementById('menu').style.display ="none";
-    var element = document.getElementById("menu");
-    element.classList.add("d-none");
-    element.classList.remove("d-flex");
 
-
-    var elementFooter = document.getElementById("footer");
-    elementFooter.classList.add("d-none");
-
-
-    var elementFooterImgGallery = document.getElementById("footer-img-gallery");
-    elementFooterImgGallery.classList.add("d-none");
-    elementFooterImgGallery.classList.remove("d-flex");
-
-   
-   
-   }
-  // console.info(currentUrl,url)
-    </script>
     </body>
+    <script>
+        $(document).ready(function() {
+            let locationLastPart = window.location.pathname
+if (locationLastPart.substring(locationLastPart.length-1) == "/") {
+  locationLastPart = locationLastPart.substring(0, locationLastPart.length-1);
+}
+locationLastPart = locationLastPart.substr(locationLastPart.lastIndexOf('/') + 1);
+
+
+if(locationLastPart=='sales'){
+    $('#footer').css('display', 'none');
+    $('#hideforsales').css('display', 'none');
+    $('#footergallery').removeClass('d-flex');
+    $('#footergallery').addClass('d-none');
+    $('#footer-gallery-first').removeClass('d-flex');
+    $('#footer-gallery-first').addClass('d-none');
+    
+    
+}
+});
+        </script>
 </html>
