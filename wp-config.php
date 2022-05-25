@@ -23,9 +23,9 @@
 
 /** The name of the database for WordPress  local 1*/
 define('DB_NAME', 'kritinayar');
-define('DB_USER', 'phpmyadmin');
-define('DB_PASSWORD', 'admin123');
-define('DB_HOST', 'kritinayar');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', 'localhost');
 
 /** The name of the database for WordPress  local 2*/
 // define('DB_NAME', 'kritinayar');
