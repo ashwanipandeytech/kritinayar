@@ -5,7 +5,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Sales</title>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
@@ -24,6 +24,9 @@
 
          body {
             font-family: 'Quicksand', sans-serif;
+         }
+         .cursor-pointer{
+            cursor: pointer;
          }
       </style>
    </head>
@@ -74,7 +77,7 @@
                            Ready to get pitching and landing brand collaborations?
                         </p>
                      </div>
-                     <a href="#" class="btn-basic">I WANT ACCESS</a>
+                     <a onclick="scrollDown()" class="btn-basic cursor-pointer">I WANT ACCESS</a>
                   </div>
                </div>
             </div>
@@ -139,7 +142,7 @@
 
             </div>
             <div class="text-center p-3">
-               <a href="#" class="btn-basic">I WANT THE SECRETS</a>
+               <a onclick="scrollDown()" class="btn-basic cursor-pointer">I WANT THE SECRETS</a>
             </div>
          </div>
       </section>
@@ -386,7 +389,7 @@
       </section>
 
       <section id="SeenOn" class="text-center p-4">
-         <h2 class="texgyretermesBold"> As seen in Yahoo News, Ed times </h2>
+         <h2 class="texgyretermesBold text-uppercase"> As seen in Yahoo News, Ed times </h2>
       </section>
 
       <section id="influencer-bundle" class="text-center">
@@ -396,7 +399,7 @@
             <img src="https://go.bossbabe.com/hosted/images/7a/387c88e38f4de0a931a8b4b77373a3/IIK-Product-Mockup.png" alt="" width="740" class="img-fluid mx-auto d-block">
          </div> -->
          <!-- <h1>For <b>Unapologetically ambitious</b><br />online business builders</h1> -->
-         <a href="#scroll-Purchase-Section" class="btn-basic mt-4">CLAIM THE INFLUENCER BUNDLE NOW</a>
+         <a onclick="scrollDown()"  class="btn-basic mt-4 cursor-pointer">CLAIM THE INFLUENCER BUNDLE NOW</a>
       </section>
 
       <section id="learn-socialmedia">
@@ -427,7 +430,7 @@
                      craft a winning media kit and email pitches that BRANDS LOVE!
                   </h2>
                   <div class="text-center mt-5">
-                     <a href="#" class="btn-basic">CLAIM THE INFLUENCER MEDIA KIT AND PITCH TEMPLATE BUNDLE NOW</a>
+                     <a onclick="scrollDown()" class="btn-basic cursor-pointer">CLAIM THE INFLUENCER MEDIA KIT AND PITCH TEMPLATE BUNDLE NOW</a>
                   </div>
                </div>
             </div>
@@ -479,7 +482,7 @@
                      </div>
                      <div class="row bottom-box">
                         <div class="col-12 col-sm-6 position-relative">
-                           <img src="https://go.bossbabe.com/hosted/images/7c/cb6e2151684f3fb01cf402aa064df6/box6.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/include1.png"
                               alt="" class="img-fluid position-absolute">
                         </div>
                         <div class="col-12 col-sm-6">
@@ -514,7 +517,7 @@
                      </div>
                      <div class="row bottom-box">
                         <div class="col-12 col-sm-6 position-relative">
-                           <img src="https://go.bossbabe.com/hosted/images/7c/cb6e2151684f3fb01cf402aa064df6/box6.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/include2.png"
                               alt="" class="img-fluid position-absolute">
                         </div>
                         <div class="col-12 col-sm-6" style="height: 100px;">
@@ -547,7 +550,7 @@
                      </div>
                      <div class="row bottom-box">
                         <div class="col-12 col-sm-6 position-relative">
-                           <img src="https://go.bossbabe.com/hosted/images/7c/cb6e2151684f3fb01cf402aa064df6/box6.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/include3.png"
                               alt="" class="img-fluid position-absolute">
                         </div>
                         <div class="col-12 col-sm-6">
@@ -585,7 +588,7 @@
                      </div>
                      <div class="row bottom-box">
                         <div class="col-12 col-sm-6 position-relative">
-                           <img src="https://go.bossbabe.com/hosted/images/7c/cb6e2151684f3fb01cf402aa064df6/box6.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/include4.png"
                               alt="" class="img-fluid position-absolute">
                         </div>
                         <div class="col-12 col-sm-6" style="height: 100px;">
@@ -619,7 +622,7 @@
                      </div>
                      <div class="row bottom-box">
                         <div class="col-12 col-sm-6 position-relative">
-                           <img src="https://go.bossbabe.com/hosted/images/7c/cb6e2151684f3fb01cf402aa064df6/box6.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/include5.png"
                               alt="" class="img-fluid position-absolute">
                         </div>
                         <div class="col-12 col-sm-6" style="height: 100px;">
@@ -739,7 +742,7 @@
                      <h5 class="text-center"><em><del>Total value - ₹ 7000 OR $99</del></em></h5>
                      <h2 class="texgyretermesBold text-center">Todays price ₹ 999 or $14</h2>
                      <div class="text-center mt-4">
-                        <a href="#" class="btn-basic h6">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
+                        <a onclick="scrollDown()" class="btn-basic cursor-pointer">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
                      </div>
                   </div>
                </div>
@@ -1039,18 +1042,19 @@
                   </div>
                </div>
             </div>
-            <div class="text-center mt-4">
+           
+         </div>
+      </section>
+
+      <section id="scrollIntoId">
+         <div class="container">
+         <div class="text-center mt-4">
                <h5><em><del>Total value - ₹ 7000 OR $99</del></em></h5>
                <h2 class="texgyretermesBold">Todays price ₹ 999 or $14</h2>
                <div class="mt-4">
                   <a href="#" class="btn-basic h6">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
                </div>
             </div>
-         </div>
-      </section>
-
-      <section>
-         <div class="container">
             <div class="row my-5">
                <div class="col">
                   <div class="text-center">
@@ -1074,41 +1078,5 @@
          </div>
       </section>
 
-      <footer style="background-color: #000; padding-top: 40px;padding-bottom: 40px;">
-         <div class="container">
-            <div class=" de1pxLetterSpacing" data-bold="inherit"
-               style="text-align: center; color: rgb(255, 255, 255); font-size: 16px;" data-gramm="false"
-               contenteditable="false">
-               <p>NOT FACEBOOK: This site is not a part of the Facebook&#8482; website or Facebook Inc. Additionally.
-                  This site is NOT endorsed by Facebook&#8482; in any way.
-                  FACEBOOK is a trademark of FACEBOOK, Inc.</p>
 
-               <p>LIABILITY DISCLAIMER: By reading this website or the documents it offers,
-                  you assume all risks associated with using the advice given.</p>
 
-               <p>You fully understand that you, solely, are responsible for anything that may occur as a result of
-                  implementation
-                  of this information in any way, and regardless of your interpretation of the advice.
-                  <!-- Disclaimer | Refund Policy Privacy Policy | Terms and Conditions</p>
-               ©Kriti Nayar | © 2021 ALL RIGHTS RESERVED -->
-            </div>
-
-         </div>
-      </footer>
-
-      <style>
-         .footer-bottom {
-               background-color: rgba(204, 174, 171, 1);
-         }
-
-         .footer-bottom *, .footer-bottom *:hover {
-            color: #fff;
-            text-decoration: none;
-         }
-      </style>
-      <div class="footer-bottom d-flex flex-wrap justify-content-center py-2">
-         <div>©Kriti Nayar | © 2021 ALL RIGHTS RESERVED</div>
-         <div class="pl-5 pr-2"><a href="">Disclaimer</a></div>
-         <div class="pr-2"><a href="">Refund Policy Privacy Policy</a></div>
-         <div><a href="">Terms and Conditions</a></div>
-      </div>

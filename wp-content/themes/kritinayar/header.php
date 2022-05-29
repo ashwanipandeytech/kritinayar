@@ -15271,6 +15271,15 @@
                     </div>
                 </div>
             </div>
+            <?php 
+            $segments = explode('/', trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'));
+            $numSegments = count($segments); 
+            $currentSegment = $segments[$numSegments - 1];
+            
+         if($currentSegment!='sales'){
+
+       
+            ?>
             <div id="menu" class="d-flex justify-content-between align-items-center">
                 <a href="/home" target="_self" class="logo">kriti Nayar</a>
                 <div class="menu-list">
@@ -15279,3 +15288,6 @@
                     <a href="https://learn.christinagalbato.com/users/sign_in" class="btn">Student Login</a>
                 </div>
             </div>
+            <?php   }?>
+
+            

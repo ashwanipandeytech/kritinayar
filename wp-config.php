@@ -23,9 +23,15 @@
 
 /** The name of the database for WordPress  local 1*/
 define('DB_NAME', 'kritinayar');
-define('DB_USER', 'root');
-define('DB_PASSWORD', '');
-define('DB_HOST', 'localhost');
+define('DB_USER', 'phpmyadmin');
+define('DB_PASSWORD', 'admin123');
+define('DB_HOST', 'kritinayar');
+
+define( 'WP_DEBUG', true );
+
+define( 'WP_DEBUG_DISPLAY', false );
+
+define( 'WP_DEBUG_LOG', true );
 
 /** The name of the database for WordPress  local 2*/
 // define('DB_NAME', 'kritinayar');

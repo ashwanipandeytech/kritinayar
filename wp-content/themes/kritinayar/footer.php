@@ -1,4 +1,52 @@
-        <style>
+<footer style="background-color: #000; padding-top: 40px;padding-bottom: 40px;">
+         <div class="container">
+            <div class=" de1pxLetterSpacing" data-bold="inherit"
+               style="text-align: center; color: rgb(255, 255, 255); font-size: 16px;" data-gramm="false"
+               contenteditable="false">
+               <p>NOT FACEBOOK: This site is not a part of the Facebook&#8482; website or Facebook Inc. Additionally.
+                  This site is NOT endorsed by Facebook&#8482; in any way.
+                  FACEBOOK is a trademark of FACEBOOK, Inc.</p>
+
+               <p>LIABILITY DISCLAIMER: By reading this website or the documents it offers,
+                  you assume all risks associated with using the advice given.</p>
+
+               <p>You fully understand that you, solely, are responsible for anything that may occur as a result of
+                  implementation
+                  of this information in any way, and regardless of your interpretation of the advice.
+                  <!-- Disclaimer | Refund Policy Privacy Policy | Terms and Conditions</p>
+               ©Kriti Nayar | © 2021 ALL RIGHTS RESERVED -->
+            </div>
+
+         </div>
+      </footer>
+
+      <style>
+         .footer-bottom {
+               background-color: rgba(204, 174, 171, 1);
+         }
+
+         .footer-bottom *, .footer-bottom *:hover {
+            color: #fff;
+            text-decoration: none;
+         }
+         .disclaimer{
+            display: none;
+         }
+      </style>
+      <div class="footer-bottom d-flex flex-wrap justify-content-center py-2">
+         <div>©Kriti Nayar | © 2021 ALL RIGHTS RESERVED</div>
+        
+
+         <div class="pl-5 pr-2 cursor-pointer"><a href="/disclaimer">Disclaimer |</a></div>
+            <div class="pr-2 cursor-pointer"><a href="/refund-policy">Refund Policy |</a></div>
+            <div class="pr-2 cursor-pointer"><a href="/privacy-policy">Privacy Policy |</a></div>
+            <div class="pr-2 cursor-pointer"><a href="/terms-and-conditions">Terms & Conditions </a></div>
+        
+
+
+      </div>
+  
+  <style>
             #footer {
                 background-color: rgb(243 241 240);
             }
@@ -177,9 +225,10 @@
         </style>
         <div class="footer-bottom d-flex justify-content-sm-center py-2" id="footer-gallery-first">
             <div>2022 ALL RIGHTS RESERVED</div>
-            <div class="pl-5 pr-2"><a href="">Disclaimer</a></div>
-            <div class="pr-2"><a href="">Refund Policy</a></div>
-            <div><a href="">Privacy Policy and T&C</a></div>
+            <div class="pl-5 pr-2 cursor-pointer"><a href="/disclaimer">Disclaimer</a></div>
+            <div class="pr-2 cursor-pointer"><a href="/refund-policy">Refund Policy</a></div>
+            <div class="pr-2 cursor-pointer"><a href="/privacy-policy">Privacy Policy</a></div>
+            <div class="pr-2 cursor-pointer"><a href="/terms-and-conditions">Terms & Conditions</a></div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -196,16 +245,33 @@ if (locationLastPart.substring(locationLastPart.length-1) == "/") {
 locationLastPart = locationLastPart.substr(locationLastPart.lastIndexOf('/') + 1);
 
 
-if(locationLastPart=='sales'){
+if(locationLastPart=='sales' || locationLastPart=='terms-and-conditions'  || locationLastPart=='disclaimer' || locationLastPart=='refund-policy' || locationLastPart=='privacy-policy'){
     $('#footer').css('display', 'none');
     $('#hideforsales').css('display', 'none');
     $('#footergallery').removeClass('d-flex');
     $('#footergallery').addClass('d-none');
     $('#footer-gallery-first').removeClass('d-flex');
     $('#footer-gallery-first').addClass('d-none');
+   
+    $('#menu').removeClass('d-flex');
+    $('#menu').addClass('d-none');
+  
     
     
 }
 });
+
+function scrollDown(){
+    let el = document.getElementById('scrollIntoId');
+  if (el != null) {
+      
+      topOfElement = el.offsetTop ;
+      window.scroll({
+          top: topOfElement,
+          behavior: "smooth"
+      });
+  }
+}
+
         </script>
 </html>

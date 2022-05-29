@@ -34,34 +34,23 @@ if (is_category() || is_front_page()) {
 	else if (is_page('sales')) {
 		get_template_part('sales');
 		
-	} elseif (is_page('service-2')) {
-		get_template_part('service-2');
+	} elseif (is_page('terms-and-conditions')) {
+		get_template_part('terms');
 	
 	}
-	elseif (is_page('service-3')) {
-		get_template_part('service-3');
+	elseif (is_page('disclaimer')) {
+		get_template_part('disclaimer');
 	
 	} 
-	elseif (is_page('service-4')) {
-		get_template_part('service-4');
+	elseif (is_page('refund-policy')) {
+		get_template_part('refundpolicy');
 	
 	} 
-	elseif (is_page('service-5')) {
-		get_template_part('service-5');
+	elseif (is_page('privacy-policy')) {
+		get_template_part('privacypolicy');
 	
 	} 
-	elseif (is_page('service-6')) {
-		get_template_part('service-6');
 	
-	} 
-	elseif (is_page('service-7')) {
-		get_template_part('service-7');
-	
-	} 
-	elseif (is_page('service-8')) {
-		get_template_part('service-8');
-	
-	}  
 	
 	else {
 		get_template_part('404.php');
