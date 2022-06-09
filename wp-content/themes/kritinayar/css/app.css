@@ -21,8 +21,9 @@ a { text-decoration: none; }
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 3px;
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%);
-  background-color: #bcc0cc;
+  background-color: #26c6da;
   transition: all .5s ease-in-out;
+  /* background-color: #bcc0cc; */
   /* background-color: rgb(127, 188, 194); */
 }
 .btn-basic:hover {
@@ -311,7 +312,7 @@ a { text-decoration: none; }
   border-radius: 35px;
 }
 #sales-header .progress .progress-bar {
-  background-color: rgb(127, 188, 194);
+  background-color: #4dd0e1;
 }
 #sales-header .progress .progress-bar-qoute {
   line-height: 36px;
@@ -610,7 +611,7 @@ a { text-decoration: none; }
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: 5px;
-  text-align: right;
+  /* text-align: right; */
 }
 #learn-socialmedia .container .heading .shortcut {
   position: relative;

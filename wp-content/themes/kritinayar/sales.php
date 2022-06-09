@@ -353,7 +353,7 @@
                Hey, I’m <span>Kriti</span>, CEO of Bossfluencer!
             </div>
             <div class="wrapper">
-               <img src="<?php echo get_template_directory_uri(); ?>/images/co-founder.jpg" width="408" height="557" alt=""
+               <img src="<?php echo get_template_directory_uri(); ?>/images/co-founder.jpg" width="500" height="557" alt=""
                   class="img-fluid" />
                <div class="Content">
                   A Content Creator, Influencer, Educator and a Digital Entrepreneur passionate about Fashion, Female
@@ -408,7 +408,7 @@
                <div class="col-12 text-center">
                   <div class="heading texgyretermesBold">
                      Consider this your <br />
-                     <span class="shortcut">shortcut</span> <span class="heading-after">to social media</span>
+                     <span class="shortcut">shortcut to</span> <br> <span class="heading-after">Landing Collaborations and feeling confident in pitching brands…</span>
                   </div>
                </div>
                <div class="col-12">
@@ -452,7 +452,7 @@
                      <div class="col"><img src="<?php echo get_template_directory_uri(); ?>/images/testimnial-4.jpg" alt="" class="img-fluid"></div>
                   </div>
                </div>
-               <div class="col-12 col-sm-5 pt-sm-5"><img src="<?php echo get_template_directory_uri(); ?>/images/testimnial-2.jpg" alt="" class="img-fluid"></div>
+               <div class="col-12 col-sm-5 pt-sm-5"><img src="<?php echo get_template_directory_uri(); ?>/images/testimnial-5.jpg" alt="" class="img-fluid"></div>
             </div>
          </div>
       </section>
@@ -1050,7 +1050,7 @@
          <div class="container">
          <div class="text-center mt-4">
                <h5><em><del>Total value - ₹ 7000 OR $99</del></em></h5>
-               <h2 class="texgyretermesBold">Todays price ₹ 999 or $14</h2>
+               <h2 class="texgyretermesBold">Todays investment ₹ 999 or $14</h2>
                <div class="mt-4">
                   <a href="#" class="btn-basic h6">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
                </div>
@@ -1058,7 +1058,7 @@
             <div class="row my-5">
                <div class="col">
                   <div class="text-center">
-                     <div class="h2 mt-4 mb-3"> Today’s price $14 </div>
+                     <div class="h2 mt-4 mb-3"> Today’s investment $14 </div>
                      <a href="#" class="btn-basic">
                         <span class="d-block">BUY THE INFLUENCER MEDIA KIT BUNDLE IN USD</span>
                         <h6>Get instant access</h6>
@@ -1067,7 +1067,7 @@
                </div>
                <div class="col">
                   <div class="text-center">
-                     <div class="h2 mt-4 mb-3"> Today’s price Rs.999 </div>
+                     <div class="h2 mt-4 mb-3"> Today’s investment Rs.999 </div>
                      <a href="#" class="btn-basic">
                         <span class="d-block">BUY THE INFLUENCER MEDIA KIT BUNDLE IN INR</span>
                         <h6>Get instant access</h6>
