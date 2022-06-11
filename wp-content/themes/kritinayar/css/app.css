@@ -21,7 +21,7 @@ a { text-decoration: none; }
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 3px;
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%);
-  background-color: #26c6da;
+  background-color: #9bd7df;
   transition: all .5s ease-in-out;
   /* background-color: #bcc0cc; */
   /* background-color: rgb(127, 188, 194); */
@@ -31,6 +31,7 @@ a { text-decoration: none; }
   color: inherit;
   background-color: #acb4cb;
 }
+.para-1 { font-family: 'Montserrat', sans-serif; }
 
 #menu {
   position: absolute;

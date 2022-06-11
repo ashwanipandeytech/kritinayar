@@ -8,6 +8,9 @@
       <title>Sales</title>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
       <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
       <link href="<?php echo get_template_directory_uri(); ?>/fonts/texgyretermes-bold.otf" rel="stylesheet">
@@ -59,7 +62,7 @@
                      <div class="texgyretermesBold text-1 mb-5" style="font-size: 28px;">You just took
                         the first step to level up your social media success. Now, you need the right templates and
                         media kit to match.</div>
-                     <div class="text-2 text-left mb-4">
+                     <div class="para-1 text-2 text-left mb-4">
                         <p style="color:inherit"> The Influencer Media Kit & Pitch Templates Bundle is your one stop
                            bundle to pitch to brands & create your own media kit within-minutes!
                         </p>
@@ -164,7 +167,7 @@
                   </div>
                </div>
             </div>
-            <div class="box-2">
+            <div class="box-2 para-1">
                Even if you spend hours crafting the email or creating that media kit all comes down to the first 3
                seconds!
                .&nbsp;
@@ -234,7 +237,7 @@
 
       <section id="explain13milli-seconds">
          <div class="container">
-            <h1 class="text-center mx-auto mb-4">
+            <h1 class="text-center para-1 mx-auto mb-4">
                What if you had the perfect solution to an
                <div><i style=""> effective email pitch</i> and a <i style=""> compelling media kit </i> that&nbsp;<u
                      style="">brands love?
@@ -320,7 +323,7 @@
                         class="img-fluid pt-4">
                   </div>
                </div>
-               <div class="col-12 col-md-6">
+               <div class="col-12 col-md-6 para-1">
                   <img src="https://www.instainfluencekit.com/hosted/images/b3/9aa035983c42b9b48d743df7a013a4/dont-worry-we-got-you.png" alt="" class="img-fluid mb-4 d-none d-md-inline">
                   The day you decide to become a creator is the day you sign to be a part of an ever evolving industry
                   that changes every day and you need to continually keep learning new things in order to grow.&nbsp;
@@ -352,7 +355,7 @@
             <div class="tag texgyretermesBold">
                Hey, I’m <span>Kriti</span>, CEO of Bossfluencer!
             </div>
-            <div class="wrapper">
+            <div class="wrapper para-1">
                <img src="<?php echo get_template_directory_uri(); ?>/images/co-founder.jpg" width="500" height="557" alt=""
                   class="img-fluid" />
                <div class="Content">
@@ -412,7 +415,7 @@
                   </div>
                </div>
                <div class="col-12">
-                  <ul class="list-unstyled">
+                  <ul class="list-unstyled para-1">
                      <li><span>1.</span> Discover the confidence you need to show up when you know your brand story.
                      </li>
                      <li><span>2.</span>Learn how to create your media kit within-minutes without having to start from
@@ -1050,7 +1053,7 @@
          <div class="container">
          <div class="text-center mt-4">
                <h5><em><del>Total value - ₹ 7000 OR $99</del></em></h5>
-               <h2 class="texgyretermesBold">Todays investment ₹ 999 or $14</h2>
+               <h2 class="h2">Todays investment ₹ 999 or $14</h2>
                <div class="mt-4">
                   <a href="#" class="btn-basic h6">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
                </div>
