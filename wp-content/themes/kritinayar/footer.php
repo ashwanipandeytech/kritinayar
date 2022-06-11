@@ -1,6 +1,6 @@
 <footer style="background-color: #000; padding-top: 40px;padding-bottom: 40px;">
          <div class="container">
-            <div class=" de1pxLetterSpacing" data-bold="inherit"
+            <div class="para-1 de1pxLetterSpacing" data-bold="inherit"
                style="text-align: center; color: rgb(255, 255, 255); font-size: 16px;" data-gramm="false"
                contenteditable="false">
                <p>NOT FACEBOOK: This site is not a part of the Facebook&#8482; website or Facebook Inc. Additionally.
