@@ -1055,7 +1055,7 @@
                <h5><em><del>Total value - ₹ 7000 OR $99</del></em></h5>
                <h2 class="h2">Todays investment ₹ 999 or $14</h2>
                <div class="mt-4">
-                  <a href="#" class="btn-basic h6" style="background-color: #42b9c9;">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
+                  <a href="#" class="btn-basic h6">YES I’M READY TO BUY THE INFLUENCER MEDIA KIT BUNDLE</a>
                </div>
             </div>
             <div class="row my-5">
@@ -1071,7 +1071,7 @@
                <div class="col">
                   <div class="text-center">
                      <div class="h2 mt-4 mb-3"> Today’s investment Rs.999 </div>
-                     <a href="https://bossfluencerbykriti.myinstamojo.com/product/511602/the-ultimate-influencer-media-kit-bundle/" class="btn-basic" style="background-color: #d0f1f5;">
+                     <a href="https://bossfluencerbykriti.myinstamojo.com/product/511602/the-ultimate-influencer-media-kit-bundle/" class="btn-basic">
                         <span class="d-block">BUY THE INFLUENCER MEDIA KIT BUNDLE IN INR</span>
                         <h6>Get instant access</h6>
                      </a>
