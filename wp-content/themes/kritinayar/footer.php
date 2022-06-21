@@ -1,4 +1,4 @@
-<footer style="background-color: #000; padding-top: 40px;padding-bottom: 40px;">
+<footer style="background-color: #000; padding-top: 40px;padding-bottom: 40px;" id="hideinunderconstruction">
          <div class="container">
             <div class="para-1 de1pxLetterSpacing" data-bold="inherit"
                style="text-align: center; color: rgb(255, 255, 255); font-size: 16px;" data-gramm="false"
@@ -33,7 +33,7 @@
             display: none;
          }
       </style>
-      <div class="footer-bottom d-flex flex-wrap justify-content-center py-2">
+      <div class="footer-bottom d-flex flex-wrap justify-content-center py-2" id="copyright">
          <div>©Kriti Nayar | © 2021 ALL RIGHTS RESERVED</div>
         
 
@@ -244,8 +244,17 @@ if (locationLastPart.substring(locationLastPart.length-1) == "/") {
 }
 locationLastPart = locationLastPart.substr(locationLastPart.lastIndexOf('/') + 1);
 
+console.info(locationLastPart)
 
-if(locationLastPart=='sales' || locationLastPart=='terms-and-conditions'  || locationLastPart=='disclaimer' || locationLastPart=='refund-policy' || locationLastPart=='privacy-policy'){
+if(locationLastPart=='' || locationLastPart=='shopinfluencerbundle' || locationLastPart=='shopinfluencerbundleupsell'  || locationLastPart=='terms-and-conditions'  || locationLastPart=='disclaimer' || locationLastPart=='refund-policy' || locationLastPart=='privacy-policy'){
+   if(locationLastPart==''){
+    
+    $('#hideinunderconstruction').css('display', 'none');
+    $('#copyright').css('display', 'none');
+    $('#copyright').removeClass('d-flex');
+    
+   }
+   
     $('#footer').css('display', 'none');
     $('#hideforsales').css('display', 'none');
     $('#footergallery').removeClass('d-flex');

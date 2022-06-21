@@ -18,23 +18,30 @@ get_header();?>
 
 if (is_category() || is_front_page()) {
 	while (have_posts()): the_post();
-		get_template_part('home', get_post_format());
+		// get_template_part('home', get_post_format());
+		get_template_part('underconstruction', get_post_format());
 	endwhile;
 
 } else {
 
-	if (is_page('about-us')) {
-		get_template_part('about');
+	if (is_page('demo-home')) {
+		get_template_part('home');
 		
 	} 
 	else if (is_page('contact')) {
 		get_template_part('contact');
 		
 	} 
-	else if (is_page('sales')) {
+	else if (is_page('shopinfluencerbundle')) {
 		get_template_part('sales');
 		
-	} elseif (is_page('terms-and-conditions')) {
+	}
+	else if (is_page('shopinfluencerbundleupsell')) {
+		get_template_part('sales2');
+		
+	}
+	
+	elseif (is_page('terms-and-conditions')) {
 		get_template_part('terms');
 	
 	}

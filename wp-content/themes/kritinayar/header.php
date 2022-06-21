@@ -15059,10 +15059,10 @@
                         <div data-sid="sticky-menu-open_1" class="sie-sticky-menu-open_1 se">
                             <div class="se-simple"></div>
                         </div>
-                        <a href="/sales" target="_self" class="sie-sticky-menu-open_2 se  se-pc"
+                        <!-- <a href="/sales" target="_self" class="sie-sticky-menu-open_2 se  se-pc"
                             data-sid="sticky-menu-open_2">
                             <div class="se-t sie-sticky-menu-open_2-text st-m-subheading st-d-heading">Contact</div>
-                        </a>
+                        </a> -->
                         <a href="/learn-from-me" target="_self" class="sie-sticky-menu-open_3 se  se-pc"
                             data-sid="sticky-menu-open_3">
                             <div class="se-t sie-sticky-menu-open_3-text st-m-subheading st-d-heading">learn from me</div>
@@ -15087,10 +15087,10 @@
                         <div data-sid="sticky-menu-open_9" class="sie-sticky-menu-open_9 se">
                             <div class="se-simple"></div>
                         </div>
-                        <a href="/sales" target="_self" class="sie-sticky-menu-open_10 se  se-pc"
+                        <!-- <a href="/sales" target="_self" class="sie-sticky-menu-open_10 se  se-pc"
                             data-sid="sticky-menu-open_10">
                             <div class="se-t sie-sticky-menu-open_10-text st-m-subheading st-d-heading">About</div>
-                        </a>
+                        </a> -->
                         <div data-sid="sticky-menu-open_11" class="sie-sticky-menu-open_11 se">
                             <div class="se-simple"></div>
                         </div>
@@ -15141,10 +15141,10 @@
                         <a href="" target="_blank" class="sie-sticky-menu-open_19 se" data-sid="sticky-menu-open_19">
                             <div class="se-simple"></div>
                         </a>
-                        <a href="https://learn.christinagalbato.com/users/sign_in" target="_blank"
+                        <!-- <a href="https://learn.christinagalbato.com/users/sign_in" target="_blank"
                             class="sie-sticky-menu-open_20 se" data-sid="sticky-menu-open_20">
                             <nav class="se-t sie-sticky-menu-open_20-text st-m-subheading st-d-heading">Student Login</nav>
-                        </a>
+                        </a> -->
                         <a href="/success-stories" target="_self" class="sie-sticky-menu-open_21 se  se-pc"
                             data-sid="sticky-menu-open_21">
                             <div class="se-t sie-sticky-menu-open_21-text st-m-subheading st-d-heading">Success stories
@@ -15233,18 +15233,18 @@
                                     </path>
                                 </svg></div>
                         </a>
-                        <div class="str-im str-id" data-tran="mobile-menu_5">
+                        <!-- <div class="str-im str-id" data-tran="mobile-menu_5">
                             <a href="/sales" target="_self" class="sie-mobile-menu_5 se" data-sid="mobile-menu_5">
                                 <h1 class="se-t sie-mobile-menu_5-text st-m-title st-d-title">NAVIGATE<br></h1>
                             </a>
-                        </div>
+                        </div> -->
                         <a href="/home" target="_self" class="sie-mobile-menu_6 se  se-pc" data-sid="mobile-menu_6">
                             <nav class="se-t sie-mobile-menu_6-text st-m-heading st-d-subheading">Home</nav>
                         </a>
  
-                        <a href="/sales" target="_self" class="sie-mobile-menu_8 se  se-pc" data-sid="mobile-menu_8">
+                        <!-- <a href="/sales" target="_self" class="sie-mobile-menu_8 se  se-pc" data-sid="mobile-menu_8">
                             <nav class="se-t sie-mobile-menu_8-text st-m-heading st-d-subheading">About</nav>
-                        </a>
+                        </a> -->
                       
                      
                    
@@ -15282,11 +15282,11 @@
             ?>
             <div id="menu" class="d-flex justify-content-between align-items-center">
                 <a href="/home" target="_self" class="logo">kriti Nayar</a>
-                <div class="menu-list">
+                <!-- <div class="menu-list">
                     <a href="/sales" target="_self">SALES</a>
                     
                     <a href="https://learn.christinagalbato.com/users/sign_in" class="btn">Student Login</a>
-                </div>
+                </div> -->
             </div>
             <?php   }?>
 

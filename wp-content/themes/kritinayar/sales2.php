@@ -35,7 +35,7 @@
    </head>
 
    <body>
-      <!-- <section id="sales-header" class="py-4">
+      <section id="sales-header" class="py-4">
          <div class="container">
             <div class="text-center">
                <h1 class="mb-0">Your Resource Is On Its Way To Your Inbox!</h1>
@@ -48,7 +48,7 @@
                </div>
             </div>
          </div>
-      </section> -->
+      </section>
 
       <section id="influence-Kit">
          <div class="container">
