@@ -1062,7 +1062,7 @@
                <div class="col">
                   <div class="text-center">
                      <div class="h2 mt-4 mb-3"> Today’s investment $14 </div>
-                     <a href="https://checkout.stripe.com/pay/cs_live_a141rw5rW00k8nM0frVHjXzMbkTE5dRy6nHXwLA2Yh3JrWuuVmxXzVpxA4#fidkdWxOYHwnPyd1blppbHNgWjA0TX9IPXVOZ091Vzx%2FT2BPTTVVdFVLTjNDS1N3QGZJdE4yX1dNUGZDaH1hdE98ZHdqVmZEQHU9SXBhXzFAVFdgdUdLdW53Mz1VSG9rVWhmVlFhTT1UR0FdNTVCUjJfNzBrTycpJ3VpbGtuQH11anZgYUxhJz8nNDFuMnNrYEJnYDFMZzc9ZkhVJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKm53bHFsa2R8ZHcrZmpoKid4JSUl" class="btn-basic">
+                     <a href="https://buy.stripe.com/14k7vneGbe4Ib28cMP" class="btn-basic">
                         <span class="d-block">BUY THE INFLUENCER MEDIA KIT BUNDLE IN USD</span>
                         <h6>Get instant access</h6>
                      </a>
